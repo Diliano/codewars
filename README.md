@@ -1,4 +1,4 @@
-# Codewars Solutions
+# Codewars
 
 ## Overview
 This repository contains my solutions to various coding challenges from [Codewars](https://www.codewars.com/). 
