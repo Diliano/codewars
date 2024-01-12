@@ -1,7 +1,7 @@
 # Python Challenges - Codewars
 
 ## Overview
-This folder contains my solutions to Python coding challenges from Codewars. Each subfolder represents a different difficulty level of the challenges, starting from `8kyu` (least complex) to higher levels.
+This folder contains my solutions to Python coding challenges from Codewars. Each subfolder represents a different difficulty level of the challenges, starting from `8kyu` (least complex) and descending as the complexity increases (`7kyu`, `6kyu`, ...)
 
 ## Structure
 - Folders are named according to the Codewars kyu level of the challenges.
