@@ -7,9 +7,9 @@ Replace all vowels (aeiouAEIOU) in a given sentence with exclamation marks.
 
 **Examples:**
 
-`replace("Hi!") === "H!!"`
-`replace("!Hi! Hi!") === "!H!! H!!"`
-`replace("aeiou") === "!!!!!"`
-`replace("ABCDE") === "!BCD!"`
+- `replace("Hi!") === "H!!"`
+- `replace("!Hi! Hi!") === "!H!! H!!"`
+- `replace("aeiou") === "!!!!!"`
+- `replace("ABCDE") === "!BCD!"`
 
 Your task is to write a function that takes a string and returns a new string with all vowels replaced by exclamation marks.
