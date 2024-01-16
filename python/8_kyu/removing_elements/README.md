@@ -1,8 +1,10 @@
 # Removing Elements
 
-**Kata Link:** [Removing Elements on Codewars](https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/train/python)
+## Kata Link
 
-**Challenge/Instructions:**
+[Removing Elements on Codewars](https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/train/python)
+
+## Challenge/Instructions
 
 Take an array and remove every second element from the array. Always keep the first element and start removing with the next element.
 

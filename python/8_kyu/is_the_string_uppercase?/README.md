@@ -1,8 +1,10 @@
 # Is the string uppercase?
 
-**Kata Link:** [Is the string uppercase? on Codewars](https://www.codewars.com/kata/56cd44e1aa4ac7879200010b/train/python)
+## Kata Link
 
-**Challenge/Instructions:**
+[Is the string uppercase? on Codewars](https://www.codewars.com/kata/56cd44e1aa4ac7879200010b/train/python)
+
+## Challenge/Instructions
 
 Create a method to see whether the string is ALL CAPS.
 

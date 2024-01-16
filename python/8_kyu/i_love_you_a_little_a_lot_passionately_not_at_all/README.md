@@ -1,8 +1,10 @@
 # I love you, a little, a lot, passionately ... not at all
 
-**Kata Link:** [I love you, a little, a lot, passionately ... not at all on Codewars](https://www.codewars.com/kata/57f24e6a18e9fad8eb000296/train/python)
+## Kata Link
 
-**Challenge/Instructions:**
+[I love you, a little, a lot, passionately ... not at all on Codewars](https://www.codewars.com/kata/57f24e6a18e9fad8eb000296/train/python)
+
+## Challenge/Instructions
 
 Who remembers back to their time in the schoolyard, when girls would take a flower and tear its petals, saying each of the following phrases each time a petal was torn:
 - "I love you"
