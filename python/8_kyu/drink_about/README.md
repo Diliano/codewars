@@ -6,7 +6,12 @@
 
 ## Challenge/Instructions
 
-Kids drink toddy. Teens drink coke. Young adults drink beer. Adults drink whisky. Make a function that receives an age and returns what they drink.
+- Kids drink toddy
+- Teens drink coke
+- Young adults drink beer
+-  Adults drink whisky
+
+Make a function that receives an age and returns what they drink.
 
 **Rules:**
 - Children under 14 years old.
@@ -20,5 +25,3 @@ Kids drink toddy. Teens drink coke. Young adults drink beer. Adults drink whisky
 - `18 --> "drink beer"`
 - `20 --> "drink beer"`
 - `30 --> "drink whisky"`
-
-Your task is to write a function that takes an age and returns the appropriate drink for that age group.
