@@ -1,17 +1,19 @@
-import math
-
 def race(v1, v2, g):
     if v1 >= v2:
         return None
     
-    # calculate time to catch up using the formula lead / speed difference (calculated using speed B - speed A)
-    time = g / (v2 - v1)
-    # calculate hours using the integer value of time
-    hours = int(time)
-    # calculate minutes by mutiplying the decimal part of hours by 60
-    minutes = (time - hours) * 60
-    # calculate seconds by multiplying the decimal part of minutes by 60
-    seconds = (minutes - int(minutes)) * 60
+    # calculate time to catch up using formula: lead / (B speed - A speed)
+    # convert to seconds by multiplying by 3600 (number of seconds per hour)
+    total_seconds = int((g / (v2 - v1)) * 3600)
     
-    # return formatted list, using the integer value of minutes and rounding seconds down as instructed in the kata
-    return [hours, int(minutes), math.floor(seconds)]
+    # calculate hours by dividing total_seconds by 3600 (number of seconds per hour)
+    hours = total_seconds // 3600
+
+    # calculate minutes by first finding the remainder of the calculation above to find hours
+    # divide the remainder by 60 (number of seconds per minute)
+    minutes = (total_seconds % 3600) // 60
+
+    # calculate seconds by finding the remainder of the calculation to find minutes (60 seconds per minute)
+    seconds = total_seconds % 60
+    
+    return [hours, minutes, seconds]
