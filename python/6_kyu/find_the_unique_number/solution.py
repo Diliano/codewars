@@ -17,4 +17,5 @@ def find_uniq(arr):
     for i in range(2, len(arr)):
         # if the current element is not the same as first (or second, third), it is our unique
         if arr[i] != first:
+            # return our unique
             return arr[i]
