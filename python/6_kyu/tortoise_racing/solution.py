@@ -15,5 +15,6 @@ def race(v1, v2, g):
 
     # calculate seconds by finding the remainder of the calculation to find minutes (60 seconds per minute)
     seconds = total_seconds % 60
-    
+
+    # return formatted results
     return [hours, minutes, seconds]
