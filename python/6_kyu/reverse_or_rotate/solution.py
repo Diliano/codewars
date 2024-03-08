@@ -18,6 +18,7 @@ def rev_rot(str, sz):
             else:
                 # if not, use list slicing to move the first digit to the end
                 result.append(chunk[1:] + chunk[0])
-                
+
+    # join result into a string 
     return ("").join(result)
         
